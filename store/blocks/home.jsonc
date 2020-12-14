@@ -25,7 +25,7 @@
   },
   "image#categoria-1": {
     "props": {
-      "src": "/arquivos/Categoria-Destacado-desktop-2.png",
+      "src": "https://dummyimage.com/1920x400/000/fff",
       "width": "94%",
       "link":{
         "url":"#"
@@ -35,7 +35,7 @@
   },
   "image#categoria-2": {
     "props": {
-      "src": "/arquivos/Categoria-Olla-desktop-2.png",
+      "src": "https://dummyimage.com/1920x400/000/fff",
       "width": "94%",
       "link":{
         "url":"#"
@@ -45,7 +45,7 @@
   },
   "image#categoria-3": {
     "props": {
-      "src": "/arquivos/Categoria-Sarten-desktop-2.png",
+      "src": "https://dummyimage.com/1920x400/000/fff",
       "width": "94%",
       "link":{
         "url":"#"
@@ -81,7 +81,7 @@
   },
   "image#categoria-1-mobile": {
     "props": {
-      "src": "/arquivos/Categoria-Destacado-mobile-2.png",
+      "src": "https://dummyimage.com/480x480/000/fff",
       "width": "94%",
       "link":{
         "url":"#"
@@ -91,7 +91,7 @@
   },
   "image#categoria-2-mobile": {
     "props": {
-      "src": "/arquivos/Categoria-Olla-mobile-2.png",
+      "src": "https://dummyimage.com/480x480/000/fff",
       "width": "94%",
       "link":{
         "url":"#"
@@ -101,7 +101,7 @@
   },
   "image#categoria-3-mobile": {
     "props": {
-      "src": "/arquivos/Categoria-Sarten-mobile-2.png",
+      "src": "https://dummyimage.com/480x480/000/fff",
       "width": "94%",
       "link":{
         "url":"#"

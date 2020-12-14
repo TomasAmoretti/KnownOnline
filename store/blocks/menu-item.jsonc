@@ -24,7 +24,7 @@
           "type": "custom",
           "itemProps": {
             "href": "#",
-            "text": "Mis productos Essen"
+            "text": "Mis productos"
           },
           "blockClass": "footer-menu"
         }

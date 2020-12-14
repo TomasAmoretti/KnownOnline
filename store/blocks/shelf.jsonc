@@ -110,7 +110,7 @@
             "simulationBehavour": "default",
             "productList": {
                 "maxItems": 12,
-                "itemsPerPage": 5,
+                "itemsPerPage": 4,
                 "minItemsPerPage": 1,
                 "scroll": "BY_PAGE",
                 "arrows": false,

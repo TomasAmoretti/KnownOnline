@@ -74,7 +74,6 @@
   "logo#header": {
     "props": {
       "title": "Logo",
-      "width": 75,
       "href": "/",
       "url": "/arquivos/logo_ko.png",
       "blockClass": "logo-header"
@@ -146,7 +145,6 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "width": 75,
       "url": "/arquivos/logo_1.png",
       "blockClass":"logo-mobile"
     }
