@@ -1,7 +1,7 @@
 {
   "name": "checkout",
   "vendor": "knownonline",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "title": "Checkout UI Settings",
   "description": "Declare custom settings to be used by checkout ui",
   "builders": {
