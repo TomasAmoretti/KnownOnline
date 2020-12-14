@@ -100,7 +100,7 @@
           "blockClass": "productos-iguales"
         }
       },
-    "shelf#marca1": {
+    "shelf#muestra": {
         "blocks": [
             "product-summary.shelf#main"
         ],
@@ -110,26 +110,7 @@
             "simulationBehavour": "default",
             "productList": {
                 "maxItems": 12,
-                "itemsPerPage": 1,
-                "minItemsPerPage": 1,
-                "scroll": "BY_PAGE",
-                "arrows": false,
-                "titleText": " "
-            },
-            "blockClass": "shelf-marca"
-        }
-    },
-    "shelf#marca1-2": {
-        "blocks": [
-            "product-summary.shelf#main"
-        ],
-        "props": {
-            "orderBy": "OrderByReleaseDateDESC",
-            "paginationDotsVisibility": "none",
-            "simulationBehavour": "default",
-            "productList": {
-                "maxItems": 12,
-                "itemsPerPage": 2,
+                "itemsPerPage": 5,
                 "minItemsPerPage": 1,
                 "scroll": "BY_PAGE",
                 "arrows": false,

@@ -19,36 +19,6 @@
           "blockClass": "footer-principal"
         }
     },
-    "menu-item#Principal#Emprendedores": {
-        "props": {
-          "type": "custom",
-          "itemProps": {
-            "href": "#",
-            "text": "Emprendedores"
-          },
-          "blockClass": "footer-principal"
-        }
-    },
-    "menu-item#Principal#Productos": {
-        "props": {
-          "type": "custom",
-          "itemProps": {
-            "href": "#",
-            "text": "Productos"
-          },
-          "blockClass": "footer-principal"
-        }
-    },
-    "menu-item#Principal#Recetas": {
-        "props": {
-          "type": "custom",
-          "itemProps": {
-            "href": "#",
-            "text": "Recetas"
-          },
-          "blockClass": "footer-principal"
-        }
-    },
     "menu-item#Productos#MisProductos": {
         "props": {
           "type": "custom",
@@ -75,46 +45,6 @@
           "itemProps": {
             "href": "#",
             "text": "Registro de producto"
-          },
-          "blockClass": "footer-menu"
-        }
-    },
-    "menu-item#Productos#ComoUtilizar": {
-        "props": {
-          "type": "custom",
-          "itemProps": {
-            "href": "#",
-            "text": "¿Cómo utilizar tu Essen?"
-          },
-          "blockClass": "footer-menu"
-        }
-    },
-    "menu-item#Productos#PostVenta": {
-        "props": {
-          "type": "custom",
-          "itemProps": {
-            "href": "#",
-            "text": "Servicio post venta"
-          },
-          "blockClass": "footer-menu"
-        }
-    },
-    "menu-item#Nosotros#SerEmprendedor": {
-        "props": {
-          "type": "custom",
-          "itemProps": {
-            "href": "#",
-            "text": "Quiero ser emprendedor"
-          },
-          "blockClass": "footer-menu"
-        }
-    },
-    "menu-item#Nosotros#SerProveedor": {
-        "props": {
-          "type": "custom",
-          "itemProps": {
-            "href": "#",
-            "text": "Quiero ser proveedor"
           },
           "blockClass": "footer-menu"
         }
@@ -148,5 +78,35 @@
           },
           "blockClass": "footer-menu"
         }
+    },
+    "menu-item#categoria-1": {
+      "props": {
+        "type": "custom",
+        "itemProps": {
+          "href": "#",
+          "text": "Categoria 1"
+        },
+        "blockClass": "footer-menu"
+      }
+  },
+  "menu-item#categoria-2": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Categoria 2"
+      },
+      "blockClass": "footer-menu"
     }
+  },
+  "menu-item#categoria-3": {
+    "props": {
+      "type": "custom",
+      "itemProps": {
+        "href": "#",
+        "text": "Categoria 3"
+      },
+      "blockClass": "footer-menu"
+    }
+  }
 }

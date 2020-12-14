@@ -1,6 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700);
-@import url(https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap);
-
 .stretchChildrenWidth{
     text-align: center;
 }
@@ -20,13 +17,6 @@
     align-items: center;
 }
 /* Footer */
-
-.flexRowContent--footer-brands{
-    background: url(/arquivos/Desktop-redes-sociales.png) no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 240px;
-}
 
 .flexRow--general-container{
     background: white!important;

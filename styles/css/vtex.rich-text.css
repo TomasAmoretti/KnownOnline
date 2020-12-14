@@ -1,13 +1,13 @@
 /* FOOTER */
 .paragraph--footer-general-titulo {
     color: black;
-    font-family: "Circular-Book";
+    font-family: sans-serif;
     font-size: 18px;
 }
 
 .paragraph--footer-general-tel {
     color: black;
-    font-family: 'Circular-Book';
+    font-family: sans-serif;
     font-size: 14px;
     text-align: initial;    
     margin: 0;
@@ -22,7 +22,7 @@
 
 .paragraph--footer-general-contacto {
     color: black;
-    font-family: "Circular-Book";
+    font-family: sans-serif;
     font-size: 18px;
     margin: 0;
 }
@@ -30,6 +30,6 @@
 .paragraph--footer-pie-pagina {
     margin: 10px 0 10px 0;
     font-size: 13px;
-    font-family: 'Circular-Book';
+    font-family: sans-serif;
     color: white;
 }

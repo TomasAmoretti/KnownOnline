@@ -3,6 +3,6 @@
     color: grey;
     font-weight: bold;
     display: flex;
-    font-family: 'Circular-Book';
+    font-family: sans-serif;
     justify-content: center;
 }

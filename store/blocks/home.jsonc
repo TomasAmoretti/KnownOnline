@@ -10,7 +10,7 @@
       "slider-layout#home",
       "flex-layout.row#categorias",
       "image#cinta-envio",
-      "flex-layout.row#marcas-1"
+      "shelf#muestra"
     ]
   },
   "flex-layout.row#categorias": {
@@ -60,43 +60,13 @@
       "blockClass": "cinta-envio"
     }
   },
-  "flex-layout.row#marcas-1": {
-    "children": [
-      "flex-layout.col#vitrina-marca1",
-      "image#image-marca1"
-    ],
-    "props": {
-      "blockClass": "marcas1",
-      "horizontalAlign": "center",
-      "preventVerticalStretch": true
-    }
-  },
-  "flex-layout.col#vitrina-marca1": {
-    "children": [
-      "shelf#marca1",
-      "shelf#marca1-2"
-    ],
-    "props": {
-      "blockClass": "vitrinas-marca",
-      "preventVerticalStretch": false,
-      "preventHorizontalStretch": true
-    }
-  },
-  "image#image-marca1": {
-    "props": {
-      "src": "https://dummyimage.com/650x800/000/fff",
-      "link": {
-        "url": "#"
-      },
-      "blockClass": "image-marca"
-    }
-  },
   /* MOBILE */
   "responsive-layout.mobile#mobile-home": {
     "children": [
       "slider-layout#home-mobile",
       "flex-layout.row#categorias-mobile",
-      "image#cinta-envio-mobile"
+      "image#cinta-envio-mobile",
+      "shelf#muestra"
     ]
   },
   "flex-layout.row#categorias-mobile": {

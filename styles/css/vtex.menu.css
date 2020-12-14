@@ -6,13 +6,13 @@
 .styledLinkContent--footer-principal {
     font-size: 27px;
     line-height: 35px;
-    font-family: "Circular-Black";
+    font-family: sans-serif;
     color: black;
 }
 
 .styledLinkContent--footer-menu {
     color: black;
-    font-family: 'Circular-Book';
+    font-family: sans-serif;
     font-size: 14px;
 }
 

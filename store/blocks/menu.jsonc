@@ -2,10 +2,7 @@
     "vtex.menu@2.x:menu#footer#Principal": {
         "children": [
           "menu-item#Principal#SobreNosotros",
-          "menu-item#Principal#Proveedores",
-          "menu-item#Principal#Emprendedores",
-          "menu-item#Principal#Productos",
-          "menu-item#Principal#Recetas"
+          "menu-item#Principal#Proveedores"
         ],
         "props": {
           "orientation": "vertical",
@@ -16,9 +13,7 @@
         "children": [
           "menu-item#Productos#MisProductos",
           "menu-item#Productos#Caracteristicas",
-          "menu-item#Productos#Registro",
-          "menu-item#Productos#ComoUtilizar",
-          "menu-item#Productos#PostVenta"
+          "menu-item#Productos#Registro"
         ],
         "props": {
           "orientation": "vertical",
@@ -27,10 +22,6 @@
     },
     "vtex.menu@2.x:menu#footer#Nosotros": {
         "children": [
-          "menu-item#Nosotros#SerEmprendedor",
-          "menu-item#Nosotros#SerProveedor",
-          "menu-item#Nosotros#Comunidad",
-          "menu-item#Nosotros#Sustentabilidad",
           "menu-item#Nosotros#PreguntasFrecuentes"
         ],
         "props": {

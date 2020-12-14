@@ -92,7 +92,7 @@
       "textAlignment": "Left",
       "textPosition": "LEFT",
       "blockClass": "footer-general-tel",
-      "text": "Linea de ayuda \n [0800-333-3773](tel:08003333773)" //Debe ir todo junto el numero para que lo tome
+      "text": "Linea de ayuda \n [0800-222-2222](#)" //Debe ir todo junto el numero para que lo tome
     }
   },
   "rich-text#footer#Contacto#App": {
@@ -138,7 +138,7 @@
     "props": {
       "textAlignment": "Left",
       "textPosition": "LEFT",
-      "text": "© 2020 Essen - Todos los derechos reservados ",
+      "text": "© 2020 Known Online - Todos los derechos reservados ",
       "blockClass": "footer-pie-pagina"
     }
   },
