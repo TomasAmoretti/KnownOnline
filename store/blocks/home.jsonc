@@ -25,7 +25,7 @@
   },
   "image#categoria-1": {
     "props": {
-      "src": "https://dummyimage.com/1920x400/000/fff",
+      "src": "https://dummyimage.com/480x480/000/fff",
       "width": "94%",
       "link":{
         "url":"#"
@@ -35,7 +35,7 @@
   },
   "image#categoria-2": {
     "props": {
-      "src": "https://dummyimage.com/1920x400/000/fff",
+      "src": "https://dummyimage.com/480x480/000/fff",
       "width": "94%",
       "link":{
         "url":"#"
@@ -45,7 +45,7 @@
   },
   "image#categoria-3": {
     "props": {
-      "src": "https://dummyimage.com/1920x400/000/fff",
+      "src": "https://dummyimage.com/480x480/000/fff",
       "width": "94%",
       "link":{
         "url":"#"

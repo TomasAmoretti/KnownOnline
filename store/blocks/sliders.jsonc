@@ -23,7 +23,7 @@
     },
     "image#slider-home-1": {
         "props": {
-            "src": "/arquivos/Banner-Ecommerce-Essen-Bifera-Aqua-escritorio.jpg",
+            "src": "https://dummyimage.com/1920x400/000/fff",
             "link": {
                 "url": "/#"
             },
@@ -32,7 +32,7 @@
     },
     "image#slider-home-2": {
         "props": {
-            "src": "/arquivos/Banner-Ecommerce-Essen-Cuadrada-Terra-escritorio.jpg",
+            "src": "https://dummyimage.com/1920x400/000/fff",
             "link": {
                 "url": "#"
             },
@@ -41,7 +41,7 @@
     },
     "image#slider-home-3": {
         "props": {
-            "src": "/arquivos/Banner-Ecommerce-Essen-escritorio.jpg",
+            "src": "https://dummyimage.com/1920x400/000/fff",
             "link": {
                 "url": "/brownie?_q=brownie&map=ft"
             },
@@ -72,7 +72,7 @@
     },
     "image#slider-home-1-mobile": {
         "props": {
-            "src": "/arquivos/Banner-Ecommerce-Essen-Bifera-Aqua-mobile.jpg",
+            "src": "https://dummyimage.com/480x480/000/fff",
             "link": {
                 "url": "/#"
             },
@@ -81,7 +81,7 @@
     },
     "image#slider-home-2-mobile": {
         "props": {
-            "src": "/arquivos/Banner-Ecommerce-Essen-Cuadrada-Terra-mobile.jpg",
+            "src": "https://dummyimage.com/480x480/000/fff",
             "link": {
                 "url": "#"
             },
@@ -90,7 +90,7 @@
     },
     "image#slider-home-3-mobile": {
         "props": {
-            "src": "/arquivos/Banner-Ecommerce-Essen-mobile.jpg",
+            "src": "https://dummyimage.com/480x480/000/fff",
             "link": {
                 "url": "/brownie?_q=brownie&map=ft"
             },
