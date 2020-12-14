@@ -1,0 +1,25 @@
+.styledLinkContainer--footer-principal, .styledLinkContainer--footer-menu {
+    margin: unset;
+    line-height: 30px;
+}
+
+.styledLinkContent--footer-principal {
+    font-size: 27px;
+    line-height: 35px;
+    font-family: "Circular-Black";
+    color: black;
+}
+
+.styledLinkContent--footer-menu {
+    color: black;
+    font-family: 'Circular-Book';
+    font-size: 14px;
+}
+
+.menuContainerNav--menu-footer {
+    margin-top: 15px;
+}
+
+.styledLinkContent--footer-principal:hover, .styledLinkContent--footer-menu:hover {
+    color:grey;
+}

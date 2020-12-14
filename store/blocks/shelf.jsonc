@@ -1,0 +1,141 @@
+{
+    "shelf#Destacados": {
+        "blocks": [
+            "product-summary.shelf#main"
+        ],
+        "props": {
+            "collection": 138,
+            "orderBy": "OrderByTopSaleDESC",
+            "paginationDotsVisibility": "none",
+            "simulationBehavour": "default",
+            "productList": {
+                "maxItems": 12,
+                "itemsPerPage": 4,
+                "minItemsPerPage": 1,
+                "scroll": "ONE_BY_ONE",
+                "arrows": true,
+                "titleText": "Destacados"
+            },
+            "blockClass": "shelf-destacados"
+        }
+    },
+    "product-summary.shelf#main": {
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "flex-layout.row#Precio-shelf",
+            "product-installments",
+            "add-to-cart-button#shelf"
+        ],
+        "props": {
+            "blockClass": "product-summary"
+        }
+    },
+    "product-installments": {
+        "props": {
+            "markers": [
+                "installments"
+            ],
+            "message": "{installmentsNumber} cuotas de {installmentValue}"
+        }
+    },
+    "product-list-price": {
+        "props": {
+            "markers": [
+                "list-price"
+            ],
+            "message": "{listPriceValue}"
+        }
+    },
+    "product-price": {
+        "props": {
+            "showSavings": false,
+            "showListPrice": false,
+            "showInstallments": false,
+            "blockClass": "product-price-vitrina"
+        }
+    },
+    "flex-layout.row#Precio-shelf": {
+        "children": [
+            "product-list-price",
+            "product-price"
+        ],
+        "props": {
+            "blockClass": "row-price-shelf",
+            "preventHorizontalStretch": true
+        }
+    },
+    "add-to-cart-button#shelf": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "AGOTADO",
+            "showTooltipOnSkuNotSelected": true,
+            /*"showToast": true,*/
+            "blockClass": "product-buy-button"
+        }
+    },
+    "product-summary-price": {
+        "props": {
+            "showLabels": false,
+            "showInstallments": false
+        }
+    },
+    "shelf#relatedProducts": {
+        "blocks": [
+          "product-summary.shelf#main"
+        ],
+        "props": {
+          "category": 1,
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "none",
+          "simulationBehavour":"default",
+          "productList": {
+            "maxItems": 12,
+            "itemsPerPage": 4,
+            "minItemsPerPage": 1,
+            "scroll": "BY_PAGE",
+            "arrows": true,
+            "titleText": "Productos relacionados"
+          },
+          "blockClass": "productos-iguales"
+        }
+      },
+    "shelf#marca1": {
+        "blocks": [
+            "product-summary.shelf#main"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC",
+            "paginationDotsVisibility": "none",
+            "simulationBehavour": "default",
+            "productList": {
+                "maxItems": 12,
+                "itemsPerPage": 1,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": false,
+                "titleText": " "
+            },
+            "blockClass": "shelf-marca"
+        }
+    },
+    "shelf#marca1-2": {
+        "blocks": [
+            "product-summary.shelf#main"
+        ],
+        "props": {
+            "orderBy": "OrderByReleaseDateDESC",
+            "paginationDotsVisibility": "none",
+            "simulationBehavour": "default",
+            "productList": {
+                "maxItems": 12,
+                "itemsPerPage": 2,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": false,
+                "titleText": " "
+            },
+            "blockClass": "shelf-marca"
+        }
+    }
+}

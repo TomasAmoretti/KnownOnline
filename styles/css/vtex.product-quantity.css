@@ -1,0 +1,8 @@
+.quantitySelectorTitle--product-qty{
+    text-align: left;
+}
+
+.quantitySelectorContainer--product-qty {
+    display: flex;
+    align-items: center;
+}

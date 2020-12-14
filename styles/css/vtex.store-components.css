@@ -1,0 +1,130 @@
+.imageElement--cinta-envio {
+    margin: auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.imageElementLink--image-marca {
+    display: flex;
+    align-items: center;
+}
+
+/* Header */
+.logoLink--logo-mobile {
+    max-width: 300px;
+}
+
+.sizeDesktop {
+    align-items: center;
+    display: flex;
+}
+
+.searchBarContainer {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.autoCompleteOuterContainer--busqueda {
+    margin-top: -15px;
+    margin-left: -20px;
+    margin-right: 15px;
+}
+
+.searchBarIcon--busqueda--external-search {
+    color:grey;
+}
+
+/* PRODUCTO */
+.productBrand--product-name {
+    font-family: 'CIRCULAR-BLACK';
+    font-size: 40px;
+    color:grey;
+}
+
+.productDescriptionTitle {
+    display: none;
+}
+
+.productDescriptionText {
+    font-family: 'Circular-Book';
+    font-size: 14px;
+    color: black;
+    margin: 30px 0 30px 0;
+}
+
+.subscriberContainer {
+    border: solid 2px #C4e8f2;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.title {
+    font-family: 'Circular-Black';
+}
+
+.subscribeLabel {
+    font-family: 'Circular-Book';
+}
+
+.productBrandName--marca-product {
+    font-family: 'Circular-Book';
+}
+
+.shareContainer {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.shareLabel {
+    font-family: 'Circular-Book';
+    color: black;
+}
+
+.content--image-producto {
+    width: 90%;
+    margin: auto;
+}   
+
+.caretIcon--image-producto {
+    color: grey;
+}
+
+.swiperBullet--active {
+    color:grey!important;
+}
+
+.productImagesGallerySwiperContainer--image-producto, .carouselThumbBorder--image-producto {
+    border: solid 2pxgrey;
+}
+
+.currencyContainer--product-price-vitrina {
+    font-family: 'Circular-Black';
+    color:grey;
+}
+
+.price_className--product-price-vitrina {
+    margin: auto;
+}
+
+.currencyContainer--product-price {
+    color:grey;
+}
+
+/* FOOTER */
+.imageElementLink--image-app {
+    justify-content: flex-start;
+    display: flex;
+}
+
+.imageElement--image-app {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.imageElementLink--image-rrss {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}

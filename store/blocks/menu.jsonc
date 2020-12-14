@@ -1,0 +1,41 @@
+{
+    "vtex.menu@2.x:menu#footer#Principal": {
+        "children": [
+          "menu-item#Principal#SobreNosotros",
+          "menu-item#Principal#Proveedores",
+          "menu-item#Principal#Emprendedores",
+          "menu-item#Principal#Productos",
+          "menu-item#Principal#Recetas"
+        ],
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "menu-footer"
+        }
+    },
+    "vtex.menu@2.x:menu#footer#Productos": {
+        "children": [
+          "menu-item#Productos#MisProductos",
+          "menu-item#Productos#Caracteristicas",
+          "menu-item#Productos#Registro",
+          "menu-item#Productos#ComoUtilizar",
+          "menu-item#Productos#PostVenta"
+        ],
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "menu-footer"
+        }
+    },
+    "vtex.menu@2.x:menu#footer#Nosotros": {
+        "children": [
+          "menu-item#Nosotros#SerEmprendedor",
+          "menu-item#Nosotros#SerProveedor",
+          "menu-item#Nosotros#Comunidad",
+          "menu-item#Nosotros#Sustentabilidad",
+          "menu-item#Nosotros#PreguntasFrecuentes"
+        ],
+        "props": {
+          "orientation": "vertical",
+          "blockClass": "menu-footer"
+        }
+    }
+}

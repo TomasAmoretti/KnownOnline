@@ -1,0 +1,44 @@
+.productNameContainer, .sellingPriceContainer{
+    color: black;
+    font-weight: bold;
+}
+
+.imageContainer {
+    margin-bottom: 10px;
+}
+
+.nameContainer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    font-family: Circular-Book;
+    align-items: center;
+}
+
+.productBrandName {
+    color:grey;
+    font-weight: bold;
+}
+
+.productBrand{
+    display: inline-flex;
+    text-align: center;
+    max-height: 18px;
+    font-family: 'Circular-Book';
+}
+
+.priceContainer{
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.containerNormal {
+    border-radius: 0;
+}
+
+.price_sellingPrice {
+    font-weight: bold;
+}
+

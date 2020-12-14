@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,800|Roboto:300,400,500,700,900&display=swap');
+
+a, b, button, div, fieldset, footer, form, h1, h2, h3, h4, h5, h6, header, i, input, p, span {
+    font-family: "Open Sans";
+}
+
+#cart-page .header {
+    height:80px;
+    background-color:#000;
+    z-index:17;
+}
+
+.logo span {
+    background-image:url(/arquivos/logo_3.png);
+    background-size:contain;
+    background-position: center center;
+}
+
+#cart-root {
+    padding-top:80px;
+}
+@media all and (max-width: 1023px){
+    #cart-root {
+        padding-top:0;
+    }
+}
+
+/* Icono de carrito */
+.bQcrQf {
+    fill: #000!important;
+}
+/* Texto del carrito ("Mi carrito") */
+.gFdOsC {
+    color:#000!important;
+}
+/* Icono de Descuento */
+.gBLzBs {
+    color:#000!important;
+}
+/* Texto del cupón de descuento ("Tenés un cupón de descuento?") */
+.jMtAyR {
+    color:#000!important;
+}
+/* Rayas izquierdas en Cupon de descuento */
+.iPaNDG {
+    color:#000!important;
+}
+/* Rayas derechas en Cupon de descuento */
+.dRfCbk {
+    color:#000!important;
+}
+/* Boton de cupón de descuento */
+.bcuDCR {
+    background:#000!important;
+}
+/* Boton "Elegir más productos" */
+.jzxGLe {
+    color:#000!important;
+    border-color:#000!important;
+}
+
+.logo-ko {
+    background: url(/arquivos/logo_ko_gris.png) no-repeat center;
+    width:105px;
+    height:30px;
+    background-size:contain;
+}
+
+div#nav-movil span.badge.bg-danger.mini-cart-qty-admake {
+    position: absolute;
+    top: 20px;
+    right: 3px;
+}

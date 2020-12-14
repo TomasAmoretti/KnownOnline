@@ -1,0 +1,11 @@
+.installments, .installments--cuotas-producto {
+    color: #c4e8f2;
+    font-family: 'Circular-Book';
+    font-size: 15px;
+}
+
+.listPriceValue {
+    font-size: 16px;
+    font-weight: 600;
+    color: grey;
+}

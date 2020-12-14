@@ -1,0 +1,35 @@
+/* FOOTER */
+.paragraph--footer-general-titulo {
+    color: black;
+    font-family: "Circular-Book";
+    font-size: 18px;
+}
+
+.paragraph--footer-general-tel {
+    color: black;
+    font-family: 'Circular-Book';
+    font-size: 14px;
+    text-align: initial;    
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.link--footer-general-tel {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.paragraph--footer-general-contacto {
+    color: black;
+    font-family: "Circular-Book";
+    font-size: 18px;
+    margin: 0;
+}
+
+.paragraph--footer-pie-pagina {
+    margin: 10px 0 10px 0;
+    font-size: 13px;
+    font-family: 'Circular-Book';
+    color: white;
+}

@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700);
+@import url(https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap);
+
+.stretchChildrenWidth{
+    text-align: center;
+}
+
+/* HOME */
+.flexRow--marcas {
+    margin: 50px 0 50px 0;
+}
+
+/* Header */
+.flexRowContent--nav-header, .flexRow--nav-header{
+    background: white;
+    border-bottom: solid 2px grey;
+}
+
+.flexRowContent--nav-header {
+    align-items: center;
+}
+/* Footer */
+
+.flexRowContent--footer-brands{
+    background: url(/arquivos/Desktop-redes-sociales.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 240px;
+}
+
+.flexRow--general-container{
+    background: white!important;
+    border-top: solid 3px grey;
+    padding: 20px 20px 20px 20px;
+}
+
+
+.flexRowContent--footer-pie-de-pagina{
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    margin: unset;
+    display: flex;
+}
+
+.flexRowContent--footer-pie-de-pagina-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRow--footer-pie-de-pagina {
+    background: black;
+    color: white;
+}
+
+/* Resultado de busqueda */
+
+.flexCol--search-result-filtros {
+    width: 220px!important;
+    margin-left: 20px;
+}
+
+.flexColChild--search-result-filtros {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.flexRow--search-result {
+    margin-bottom: 60px;
+}
+
+.filter__container--title {
+    display: none;
+}
+
+/* Imagenes categorias */
+.flexRow--imagenes-categorias {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* Form contacto */
+.flexColChild--col-form {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border: solid 2px black;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.flexRow--footer-rrss {
+    width: 14%;
+    margin: auto;
+    margin-right: 0;
+}
+
+/* PRODUCTO */
+.flexColChild--product-lef-col {
+    width: 65%;
+    margin-left: 45px;
+}
+
+.flexRowContent--row-price {
+    display: flex;
+    justify-content: center;
+}
+
+/* VITRINA */
+.flexRowContent--row-price-shelf {
+    display: block;
+    text-align: center;
+}

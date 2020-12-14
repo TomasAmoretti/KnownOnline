@@ -1,0 +1,152 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ],
+    "props":{
+      "blockClass": "header-sticky"
+    }
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#desktop"
+    ]
+  },
+  "flex-layout.row#desktop": {
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "nav-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "fullWidth": true
+    }
+  },
+  "search-bar":{
+    "props":{
+      "autoFocus": true,
+      "blurOnSubmit": true,
+      "displayMode": "search-and-clear-buttons",
+      "blockClass": "busqueda",
+      "compactMode": false
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#spacer2": {
+    "props": {
+      "width": "small"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#header"
+    ]
+  },
+  "logo#header": {
+    "props": {
+      "title": "Logo",
+      "width": 75,
+      "href": "/",
+      "url": "/arquivos/logo_1.png",
+      "blockClass": "logo-header"
+    }
+  },
+  "login": {
+    "props": {
+      "optionsTitle": "Elija una forma de logueo",
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Recibir codigo de acceso por mail",
+      "emailPraceholder": "E-mail",
+      "passwordPlaceholder": "Contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "hideIconLabel": true,
+      "blockClass": "login-header"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#mobile",
+      "search-bar#mobile"
+    ],
+    "props": {
+      "blockClass": "header-mobile"
+    }
+  },
+  "sticky-layout#mobile": {
+    "props": {
+      "blockClass": "sticky-header-mobile"
+    },
+    "children": [
+      "header-row#main-mobile"
+    ]
+  },
+  "search-bar#mobile":{
+    "props":{
+      "autoFocus": false,
+      "blurOnSubmit": true,
+      "displayMode": "search-and-clear-buttons",
+      "blockClass": "busqueda-mobile",
+      "compactMode": false
+    }
+  },
+  "header-row#main-mobile": {
+    "children": [
+      "logo#mobile",
+      "login",
+      "minicart.v2",
+      "drawer"
+    ],
+    "props": {
+      "sticky": true,
+      "inverted": true
+    }
+  },
+  "menu#drawer": {
+    "children": [
+      
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-drawer"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "width": 75,
+      "url": "/arquivos/logo_1.png",
+      "blockClass":"logo-mobile"
+    }
+  }
+}

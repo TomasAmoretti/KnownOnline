@@ -1,0 +1,8 @@
+.product-identifier--productReference {
+    text-align: initial;
+    color: grey;
+    font-weight: bold;
+    display: flex;
+    font-family: 'Circular-Book';
+    justify-content: center;
+}

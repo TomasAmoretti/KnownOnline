@@ -1,0 +1,210 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer#general",
+      "flex-layout.row#footer#pie-de-pagina"
+    ]
+  },
+  "flex-layout.row#footer#general": {
+    "children": [
+      "flex-layout.col#footer#Principal",
+      "flex-layout.col#footer#Productos",
+      "flex-layout.col#footer#Nosotros",
+      "flex-layout.col#footer#Contacto"
+    ],
+    "props": {
+      "blockClass": "general-container",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#footer#Principal": {
+    "children": [
+      "vtex.menu@2.x:menu#footer#Principal"
+    ],
+    "props":{
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#footer#Productos": {
+    "children": [
+      "rich-text#footer#Productos",
+      "vtex.menu@2.x:menu#footer#Productos"
+    ],
+    "props":{
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer#Productos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Productos",
+      "blockClass": "footer-general-titulo"
+    }
+  },
+  "flex-layout.col#footer#Nosotros": {
+    "children": [
+      "rich-text#footer#Nosotros",
+      "vtex.menu@2.x:menu#footer#Nosotros"
+    ],
+    "props":{
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer#Nosotros": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Nosotros",
+      "blockClass": "footer-general-titulo"
+    }
+  },
+  "flex-layout.col#footer#Contacto": {
+    "children": [
+      "rich-text#footer#Contacto",
+      "rich-text#footer#Contacto#Tel",
+      "rich-text#footer#Contacto#App",
+      "image#app-playstore",
+      "image#app-ios"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "preventVerticalStretch":true,
+      "rowGap": 1
+    }
+  },
+  "rich-text#footer#Contacto": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Contacto",
+      "blockClass": "footer-general-titulo"
+    }
+  },
+  "rich-text#footer#Contacto#Tel": {
+    "props": {
+      "textAlignment": "Left",
+      "textPosition": "LEFT",
+      "blockClass": "footer-general-tel",
+      "text": "Linea de ayuda \n [0800-333-3773](tel:08003333773)" //Debe ir todo junto el numero para que lo tome
+    }
+  },
+  "rich-text#footer#Contacto#App": {
+    "props": {
+      "textAlignment": "Left",
+      "textPosition": "LEFT",
+      "text": "Descargá la App",
+      "blockClass": "footer-general-contacto"
+    }
+  },
+  "image#app-playstore":{
+    "props": {
+      "src": "/arquivos/googleplay.png",
+      "link": {
+        "url": "#"
+      },
+      "width": "40%",
+      "blockClass": "image-app"
+    }
+  },
+  "image#app-ios":{
+    "props": {
+      "src": "/arquivos/appstore.png",
+      "link": {
+        "url": "#"
+      },
+      "width": "40%",
+      "blockClass": "image-app"
+    }
+  },
+  "flex-layout.row#footer#pie-de-pagina":{
+    "children":[
+      "rich-text#footer#pie-pagina-derechos",
+      "flex-layout.row#footer-rrss"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "horizontalAlign":"center",
+      "blockClass": "footer-pie-de-pagina"
+    }
+  },
+  "rich-text#footer#pie-pagina-derechos": {
+    "props": {
+      "textAlignment": "Left",
+      "textPosition": "LEFT",
+      "text": "© 2020 Essen - Todos los derechos reservados ",
+      "blockClass": "footer-pie-pagina"
+    }
+  },
+  "flex-layout.row#footer-rrss":{
+    "children":[
+      "image#rrss-instagram",
+      "image#rrss-facebook",
+      "image#rrss-twitter",
+      "image#rrss-youtube"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "left",
+      "blockClass": "footer-rrss"
+    }
+  },
+  "image#rrss-instagram":{
+    "props": {
+      "src": "/arquivos/instagram-logo.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "image-rrss"
+    }
+  },
+  "image#rrss-facebook":{
+    "props": {
+      "src": "/arquivos/facebook-logo.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "image-rrss"
+    }
+  },
+  "image#rrss-twitter":{
+    "props": {
+      "src": "/arquivos/twitter-logo.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "image-rrss"
+    }
+  },
+  "image#rrss-youtube":{
+    "props": {
+      "src": "/arquivos/youtube-logo.png",
+      "link": {
+        "url": "#"
+      },
+      "blockClass": "image-rrss"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer#general",
+      "flex-layout.row#footer#pie-de-pagina"
+    ]
+  },
+  "flex-layout.row#footer#pie-de-pagina-mobile":{
+    "children":[
+
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "horizontalAlign":"center",
+      "blockClass": "footer-pie-de-pagina-mobile"
+    }
+  }
+}

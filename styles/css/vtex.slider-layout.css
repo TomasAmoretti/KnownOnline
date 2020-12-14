@@ -1,0 +1,16 @@
+.sliderLayoutContainer--slider-home{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.sliderArrows--slider-home {
+    color:#585858;
+}
+
+.paginationDotsContainer--slider-home {
+    bottom: -15px;
+}
+
+.paginationDot--slider-home--isActive {
+    background: #585858;
+}

@@ -1,0 +1,8 @@
+.container--breadcrumb {
+    text-align: initial;
+    margin-top: 45px;
+}
+
+.link:hover {
+    color: grey;
+}

@@ -1,0 +1,100 @@
+{
+    "slider-layout#home": {
+        "children": [
+            "image#slider-home-1",
+            "image#slider-home-2",
+            "image#slider-home-3"
+        ],
+        "props": {
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            },
+            "infinite": true,
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1
+            },
+            "showPaginationDots": "always",
+            "showNavigationArrows": "always",
+            "fullWidth": false,
+            "blockClass": "slider-home"
+        }
+    },
+    "image#slider-home-1": {
+        "props": {
+            "src": "/arquivos/Banner-Ecommerce-Essen-Bifera-Aqua-escritorio.jpg",
+            "link": {
+                "url": "/#"
+            },
+            "blockClass": "slider-home"
+        }
+    },
+    "image#slider-home-2": {
+        "props": {
+            "src": "/arquivos/Banner-Ecommerce-Essen-Cuadrada-Terra-escritorio.jpg",
+            "link": {
+                "url": "#"
+            },
+            "blockClass": "slider-home"
+        }
+    },
+    "image#slider-home-3": {
+        "props": {
+            "src": "/arquivos/Banner-Ecommerce-Essen-escritorio.jpg",
+            "link": {
+                "url": "/brownie?_q=brownie&map=ft"
+            },
+            "blockClass": "slider-home"
+        }
+    },
+    /* MOBILE */
+    "slider-layout#home-mobile": {
+        "children": [
+            "image#slider-home-1-mobile",
+            "image#slider-home-2-mobile",
+            "image#slider-home-3-mobile"
+        ],
+        "props": {
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            },
+            "infinite": true,
+            "itemsPerPage": {
+                "tablet": 1,
+                "phone": 1
+            },
+            "showPaginationDots": "mobileOnly",
+            "fullWidth": false,
+            "blockClass": "slider-home"
+        }
+    },
+    "image#slider-home-1-mobile": {
+        "props": {
+            "src": "/arquivos/Banner-Ecommerce-Essen-Bifera-Aqua-mobile.jpg",
+            "link": {
+                "url": "/#"
+            },
+            "blockClass": "slider-home"
+        }
+    },
+    "image#slider-home-2-mobile": {
+        "props": {
+            "src": "/arquivos/Banner-Ecommerce-Essen-Cuadrada-Terra-mobile.jpg",
+            "link": {
+                "url": "#"
+            },
+            "blockClass": "slider-home"
+        }
+    },
+    "image#slider-home-3-mobile": {
+        "props": {
+            "src": "/arquivos/Banner-Ecommerce-Essen-mobile.jpg",
+            "link": {
+                "url": "/brownie?_q=brownie&map=ft"
+            },
+            "blockClass": "slider-home"
+        }
+    }
+}
